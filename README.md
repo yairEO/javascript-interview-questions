@@ -23,3 +23,6 @@ https://itnext.io/heres-why-mapping-a-constructed-array-doesn-t-work-in-javascri
 
 ## Flatten multidimensional Array
 
+## Check number for duplicate digits
+
+    [1, 10, 11, 1010, 1981] => [false, false, true, true, true]
