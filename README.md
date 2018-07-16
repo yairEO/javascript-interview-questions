@@ -38,3 +38,5 @@
 16. ### What would be the output of this?
 
     [1,2] + [3,4]
+	
+17. ### Repeat a String N times
