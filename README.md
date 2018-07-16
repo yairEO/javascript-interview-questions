@@ -1,7 +1,7 @@
 # List of Javascript questions
 
 1. ### Create an array of N length and fill each item by it's index number
-https://itnext.io/heres-why-mapping-a-constructed-array-doesn-t-work-in-javascript-f1195138615a
+   https://itnext.io/heres-why-mapping-a-constructed-array-doesn-t-work-in-javascript-f1195138615a
 
 2. ### Remove empty elements from Array
 
