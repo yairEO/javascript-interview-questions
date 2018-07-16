@@ -1,34 +1,40 @@
 # List of Javascript questions
 
-### Create an array of N length and fill each item by it's index number
+1. ### Create an array of N length and fill each item by it's index number
 https://itnext.io/heres-why-mapping-a-constructed-array-doesn-t-work-in-javascript-f1195138615a
 
-### Remove empty elements from Array
+2. ### Remove empty elements from Array
 
     [1,2,null, undefined,3,,3,,NaN,0,,,true,false]
 
-### Make Array.indexOf() case insensitive
+3. ### Make Array.indexOf() case insensitive
 
-## Find largest number in an unsorted Array of numbers
+4. ### Find largest number in an unsorted Array of numbers
 
-### Split a paragraph into segments max N characters without word-breaking
+5. ### Split a paragraph into segments max N characters without word-breaking
 
-### Check if variable is an Object {}
+6. ### Check if variable is an Object {}
 
-### Function in javascript which can be called only once
+7. ### Function in javascript which can be called only once
 
-### State all the different ways to define a function and their differences
+8. ### State all the different ways to define a function and their differences
 
-### How to convert a DOM node list to an array
+9. ### How to convert a DOM node list to an array
 
-### Add only unique objects to an array
+10. ### Add only unique objects to an array
 
-### Determine if two Objects are equal
+11. ### Determine if two Objects are equal
 
-### Remove event listener which was added with callback which used ".bind()"
+12. ### Remove event listener which was added with callback which used ".bind()"
 
-### Flatten multidimensional Array
+13. ### Flatten multidimensional Array
 
-### Check number for duplicate digits
+14. ### Find index of largest number in an Array
+
+15. ### Check number for duplicate digits
 
     [1, 10, 11, 1010, 1981] => [false, false, true, true, true]
+	
+16. ### What would be the output of this?
+
+    [1,2] + [3,4]
