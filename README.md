@@ -40,3 +40,8 @@
     [1,2] + [3,4]
 	
 17. ### Repeat a String N times
+
+18. ### Arguments vs Parameters, which term means what
+
+19. ### Check if character is number
+    https://stackoverflow.com/questions/8935632/check-if-character-is-number/32572539#32572539
