@@ -29,7 +29,9 @@
 
 13. ### Flatten multidimensional Array
 
-14. ### Find index of largest number in an Array
+14. ### Check how many times each digit in a number repeats itself
+
+    1201977 => [[1,2],[2,1],[0,1],[9,1],[7,2]]
 
 15. ### Check number for duplicate digits
 
