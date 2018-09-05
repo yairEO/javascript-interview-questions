@@ -52,8 +52,8 @@
 
 21. What would these print:
 
-    var foo = (...a) => console.log(a);
-    foo([1,2,3], 4)
-    
+        var foo = (...a) => console.log(a);
+        foo([1,2,3], 4)
+
     var foo = (...[a]) => console.log(a);
     foo([1,2,3], 4)
