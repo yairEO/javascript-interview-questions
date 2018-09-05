@@ -47,3 +47,13 @@
 
 19. ### Check if character is number
     https://stackoverflow.com/questions/8935632/check-if-character-is-number/32572539#32572539
+
+20. ### Modify "querySelectorAll" to allow using Map the method
+
+21. What would these print:
+
+    var foo = (...a) => console.log(a);
+    foo([1,2,3], 4)
+    
+    var foo = (...[a]) => console.log(a);
+    foo([1,2,3], 4)
