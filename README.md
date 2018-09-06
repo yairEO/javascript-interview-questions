@@ -48,7 +48,7 @@
 19. ### Check if character is number
     https://stackoverflow.com/questions/8935632/check-if-character-is-number/32572539#32572539
 
-20. ### Modify "querySelectorAll" to allow using Map the method
+20. ### How to write a wrapper function to enhance another un-accessible function
 
 21. What would these print:
 
