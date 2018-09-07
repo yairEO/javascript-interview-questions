@@ -57,3 +57,5 @@
 
         var foo = (...[a]) => console.log(a);
         foo([1,2,3], 4)
+		
+22. For N arrays of different lengths, get the longest array
