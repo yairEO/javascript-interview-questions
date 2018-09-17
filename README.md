@@ -15,6 +15,12 @@
 ### Find largest number in an unsorted Array of numbers
 
 ------
+### Flip an integer (123 -> 321). suggest more than one solution.
+
+------
+### Sum two binary numbers (using as low-level code as possible)
+
+------
 ### Split a paragraph into segments max N characters without word-breaking
 
 ------
