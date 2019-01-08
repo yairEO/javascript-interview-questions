@@ -15,10 +15,15 @@
 ### Find largest number in an unsorted Array of numbers
 
 ------
+### Check if an array contains only numbers
+
+------
 ### Flip an integer (123 -> 321). suggest more than one solution.
 
 ------
 ### Sum two binary numbers (using as low-level code as possible)
+
+    1011 + 11 // => 1110
 
 ------
 ### Split a paragraph into segments max N characters without word-breaking
@@ -85,3 +90,6 @@
 
 ------		
 ### For N arrays of different lengths, get the longest array
+
+------		
+### Write a function which finds a DOM node's index within its parent node
