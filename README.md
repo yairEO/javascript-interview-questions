@@ -55,6 +55,9 @@
     var arr = [[1,2],[3,4],[5,6]]
     console.log( [].concat(...arr) )
 
+    // ES2015 "flat":
+    arr.flat(); 
+
 ------
 ### Check how many times each digit in a number repeats itself
 
