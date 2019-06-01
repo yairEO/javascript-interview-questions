@@ -50,7 +50,7 @@
 ### Remove event listener which was added with callback which used ".bind()"
 
 ------
-### Flatten multidimensional Array
+### Flatten multidimensional (2D) Array
 
 ------
 ### Check how many times each digit in a number repeats itself
