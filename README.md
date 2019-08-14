@@ -26,28 +26,43 @@
     1011 + 11 // => 1110
 
 ------
-### Split a paragraph into segments max N characters without word-breaking
+### Split a paragraph into segments of max N characters, without word-breaking
 
 ------
-### Check if variable is an Object {}
+### Check if a variable is an Object {}
 
 ------
-### Function in javascript which can be called only once
+### Create a function which executes once
 
 ------
-### State all the different ways to define a function and their differences
+### State different ways to define a function and their differences
 
 ------
-### How to convert a DOM node list to an array
+### How to convert a DOM node list (HTMLCollection) into an array?
 
 ------
 ### Add only unique objects to an array
 
 ------
-### Determine if two Objects are equal
+### Determine if two Objects are equal (identical to previous question, but more explicit)
 
 ------
-### Remove event listener which was added with callback which used ".bind()"
+### Remove DOM event listener which was added with callback which used ".bind()"
+
+    function Example(name){
+      this.name = name;
+      window.addEventListener("click", this.clicked.bind(this))
+    }
+   
+    Example.prototype.clicked = function(){
+      console.log(this.name)
+    }
+
+    Example.prototype.destroy = function(){
+      ...
+    }
+    
+    const example = new Example('foo')
 
 ------
 ### Flatten multidimensional (2D) Array
