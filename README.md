@@ -104,7 +104,7 @@
 ### Deep-clone the Array & remove the 2nd item
 
 	[{a:1}, {b:2}, {c:3}].reduce((newArr, item, idx) => {
-		if( idx != 1 )
+	    if( idx != 1 )
 		newArr.push({...item})
 	    return newArr
 	}, [])
