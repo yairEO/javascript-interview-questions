@@ -99,3 +99,12 @@
 
 ------		
 ### Write a function which finds a DOM node's index within its parent node
+
+------		
+### Write a function which removes the 2nd item in the Array and deep-clone the Array
+
+	[{a:1}, {b:2}, {c:3}].reduce((newArr, item, idx) => {
+		if( idx != 1 )
+		newArr.push({...item})
+	    return newArr
+	}, [])
