@@ -98,7 +98,7 @@
 https://stackoverflow.com/questions/8935632/check-if-character-is-number/32572539#32572539
 
 ------
-### How to write a wrapper function to enhance another un-accessible function
+### Enhance console.log function to print your name before, and as part of, the rest of the log
 
 ------
 ### What would these print:
