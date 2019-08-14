@@ -80,7 +80,7 @@
 
 ------
 ### Check if character is number
-    https://stackoverflow.com/questions/8935632/check-if-character-is-number/32572539#32572539
+https://stackoverflow.com/questions/8935632/check-if-character-is-number/32572539#32572539
 
 ------
 ### How to write a wrapper function to enhance another un-accessible function
@@ -96,7 +96,7 @@
 
 ------		
 ### For N arrays of varrying length in a 2D array, get the longest array's index
-    https://stackoverflow.com/a/57491707/104380
+https://stackoverflow.com/a/57491707/104380
     
 
 ------		
