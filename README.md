@@ -95,7 +95,9 @@
         foo([1,2,3], 4)
 
 ------		
-### For N arrays of different lengths, get the longest array
+### For N arrays of varrying length in a 2D array, get the longest array's index
+    https://stackoverflow.com/a/57491707/104380
+    
 
 ------		
 ### Write a function which finds a DOM node's index within its parent node
