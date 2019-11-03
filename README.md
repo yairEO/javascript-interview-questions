@@ -15,6 +15,9 @@
 ### Find largest number in an unsorted Array of numbers
 
 ------
+### Limit a number to be between 0 & 100 
+
+------
 ### Check if an array contains only numbers
 
 ------
