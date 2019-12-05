@@ -18,6 +18,12 @@
 ### Limit a number to be between 0 & 100 
 
 ------
+### Get the avarage of a number's digits
+
+    '1234'.split('').reduce((result, digit, idx, arr) => idx == arr.length-1 ? (result+ +digit)/arr.length : +result + +digit, 0)
+    https://stackoverflow.com/a/18234568/104380
+
+------
 ### Check if an array contains only numbers
 
 ------
