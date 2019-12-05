@@ -1,4 +1,7 @@
-# List of Javascript questions
+# List of Javascript fun Questions
+
+> Some are very basic programming questions that are designed to show how a person thinks.
+
 
 ### Create an array of N length and fill each item by it's index number
    https://itnext.io/heres-why-mapping-a-constructed-array-doesn-t-work-in-javascript-f1195138615a
