@@ -40,27 +40,76 @@
 </details>
 
 ------
-### Find largest number in an unsorted Array of numbers
+### Find second largest number in an unsorted Array of numbers
+
+<details>
+<summary>See Answer</summary>
+	
+https://stackoverflow.com/a/17040125/104380
+</details>
 
 ------
 ### Limit a number to be between 0 & 100 
 
+<details>
+<summary>See Answer</summary>
+	
+```js
+Math.max(0, Math.min(100, num))
+```
+</details>
+
 ------
 ### Get the avarage of a number's digits
 
-    '1234'.split('').reduce((result, digit, idx, arr) => idx == arr.length-1 ? (result+ +digit)/arr.length : +result + +digit, 0)
-    https://stackoverflow.com/a/18234568/104380
+<details>
+<summary>See Answer</summary>
+	
+https://stackoverflow.com/a/18234568/104380
+	
+```js
+    '1234'.split('').reduce((result, digit, idx, arr) => 
+	idx == arr.length-1 
+	  ? (result+ +digit)/arr.length 
+          : +result + +digit
+    , 0)
+```
+Or:
+
+```js
+let num = '12345';
+let sum = 0
+
+for( let d of num )
+  sum += +d
+
+console.log(sum/num.length) // 3
+```
+</details>
+
 
 ------
 ### Check if an array contains only numbers
 
+<details>
+<summary>See Answer</summary>
+	
+```js
+![1,2,"3"].some(item => typeof item !== "number")
+```
+</details>
+
 ------
 ### Flip an integer (123 -> 321). suggest more than one solution.
+
+https://stackoverflow.com/a/52366332/104380
 
 ------
 ### Sum two binary numbers (using as low-level code as possible)
 
     1011 + 11 // => 1110
+
+https://stackoverflow.com/a/52372514/104380
 
 ------
 ### Split a paragraph into segments of max N characters, without word-breaking
