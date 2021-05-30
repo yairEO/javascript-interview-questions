@@ -68,11 +68,11 @@ Math.max(0, Math.min(100, num))
 https://stackoverflow.com/a/18234568/104380
 	
 ```js
-    '1234'.split('').reduce((result, digit, idx, arr) => 
-	idx == arr.length-1 
-	  ? (result+ +digit)/arr.length 
-          : +result + +digit
-    , 0)
+'1234'.split('').reduce((result, digit, idx, arr) => 
+    idx == arr.length-1 
+      ? (result+ +digit)/arr.length 
+      : +result + +digit
+, 0)
 ```
 Or:
 
