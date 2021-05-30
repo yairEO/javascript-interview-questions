@@ -6,13 +6,38 @@
 ### Create an array of N length and fill each item by it's index number
    https://itnext.io/heres-why-mapping-a-constructed-array-doesn-t-work-in-javascript-f1195138615a
 
+<details>
+<summary>See Answer</summary>
+	
+```js
+[...new Array(5)].map((_, idx) => idx)
+```
+</details>
+
 ------
+
 ### Remove empty elements from Array
 
-    [1,2,null, undefined,3,,3,,NaN,0,,,true,false]
+    [1,2,null,undefined,3,,"3",,NaN,0,,,true,false, {}]
+
+<details>
+<summary>See Answer</summary>
+	
+```js
+.filter(Boolean)
+```
+</details>
 
 ------
-### Make Array.indexOf() case insensitive
+### Make `Array.indexOf()` case insensitive
+
+<details>
+<summary>See Answer</summary>
+	
+```js
+["Foo", "foO", "foo"].findIndex(item => item.toLowerCase() == 'foo')
+```
+</details>
 
 ------
 ### Find largest number in an unsorted Array of numbers
