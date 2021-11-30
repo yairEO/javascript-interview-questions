@@ -1,7 +1,7 @@
 # List of Javascript fun Questions
 
-> Some are very basic programming questions that are designed to show how a person thinks.
-
+Some are very basic programming questions that are designed to show how a person thinks.
+<br><br><br>
 
 ### Remove overlapping matches in Array
 
@@ -13,8 +13,8 @@ function getNotOverlapping(arr, size){
 }
 
 console.log(
-  getNotOverlapping([0,1,2,3], 1), // 1,2,3,4
-  getNotOverlapping([0,1,2,3], 2)  // 1,3
+  getNotOverlapping([0,1,2,3], 1), // 0,1,2,3
+  getNotOverlapping([0,1,2,3], 2)  // 0,2
 )
 ```
 
