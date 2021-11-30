@@ -3,6 +3,34 @@
 > Some are very basic programming questions that are designed to show how a person thinks.
 
 
+### Remove overlapping matches in Array
+
+Givven an array of numbers, and a size parameter, the `getNotOverlapping` is expected to return a 
+new array with equal or less item, which their values do not overlap in accordance to the `size` variable.
+
+```js
+function getNotOverlapping(arr, size){  
+}
+
+console.log(
+  getNotOverlapping([0,1,2,3], 1), // 1,2,3,4
+  getNotOverlapping([0,1,2,3], 2)  // 1,3
+)
+```
+
+<details>
+<summary>See Answer</summary>
+	
+```js
+[1, 2, 3, 4].reduce((acc, item, idx) =>  
+idx === 0 || acc[acc.length-1] + size <= item ?
+    [...acc, item]
+    : acc, [])
+```
+</details>
+
+---
+
 ### Create an array of N length and fill each item by it's index number
    https://itnext.io/heres-why-mapping-a-constructed-array-doesn-t-work-in-javascript-f1195138615a
 
