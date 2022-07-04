@@ -97,9 +97,7 @@ https://stackoverflow.com/a/18234568/104380
 	
 ```js
 '1234'.split('').reduce((result, digit, idx, arr) => 
-    idx == arr.length-1 
-      ? (result+ +digit)/arr.length 
-      : +result + +digit
+    (result + +digit)/(idx == arr.length-1 ? arr.length : 1)
 , 0)
 ```
 Or:
