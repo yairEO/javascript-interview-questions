@@ -160,35 +160,35 @@ https://stackoverflow.com/a/52372514/104380
 
 ------
 ### Remove DOM event listener which was added with callback which used ".bind()"
+```js
+function Example(name){
+	this.name = name;
+	window.addEventListener("click", this.clicked.bind(this))
+}
 
-    function Example(name){
-      this.name = name;
-      window.addEventListener("click", this.clicked.bind(this))
-    }
-   
-    Example.prototype.clicked = function(){
-      console.log(this.name)
-    }
+Example.prototype.clicked = function(){
+	console.log(this.name)
+}
 
-    Example.prototype.destroy = function(){
-      ...
-    }
-    
-    const example = new Example('foo')
+Example.prototype.destroy = function(){
+	...
+}
 
+const example = new Example('foo')
+```
 ------
 ### Flatten multidimensional (2D) Array
- 
-    var arr = [[1,2],[3,4],[5,6]]
-    console.log( [].concat(...arr) )
+```js
+var arr = [[1,2],[3,4],[5,6]]
+console.log( [].concat(...arr) )
 
-    // ES2015 "flat":
-    arr.flat(); 
-
+// ES2015 "flat":
+arr.flat(); 
+```
 ------
 ### Check how many times each digit in a number repeats itself
 
-    1201977 => [[1,2],[2,1],[0,1],[9,1],[7,2]]
+    1201977 => [[1,2], [2,1], [0,1], [9,1], [7,2]]
 
 ------
 ### Check number for duplicate digits
@@ -232,9 +232,10 @@ https://stackoverflow.com/a/57491707/104380
 
 ------		
 ### Deep-clone the Array & remove the 2nd item
-
-	[{a:1}, {b:2}, {c:3}].reduce((newArr, item, idx) => {
-	    if( idx != 1 )
-		newArr.push({...item})
-	    return newArr
-	}, [])
+```js
+[{a:1}, {b:2}, {c:3}].reduce((newArr, item, idx) => {
+    if( idx != 1 )
+	newArr.push({...item})
+    return newArr
+}, [])
+```
