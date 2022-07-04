@@ -232,10 +232,14 @@ https://stackoverflow.com/a/57491707/104380
 
 ------		
 ### Deep-clone the Array & remove the 2nd item
+	
+<details>
+<summary>See Answer</summary>
 ```js
 [{a:1}, {b:2}, {c:3}].reduce((newArr, item, idx) => {
     if( idx != 1 )
-	newArr.push({...item})
+        newArr.push({...item})
     return newArr
 }, [])
 ```
+</details>
