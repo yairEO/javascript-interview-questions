@@ -215,12 +215,13 @@ https://stackoverflow.com/questions/8935632/check-if-character-is-number/3257253
 ------
 ### What would these print:
 
-        var foo = (...a) => console.log(a);
-        foo([1,2,3], 4)
+```js
+var foo = (...a) => console.log(a);
+foo([1,2,3], 4)
 
-        var foo = (...[a]) => console.log(a);
-        foo([1,2,3], 4)
-
+var foo = (...[a]) => console.log(a);
+foo([1,2,3], 4)
+```
 ------		
 ### For N arrays of varrying length in a 2D array, get the longest array's index
 https://stackoverflow.com/a/57491707/104380
